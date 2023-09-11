@@ -12,7 +12,7 @@ class Follow(models.Model):
                                   related_name='following')
 
     def __str__(self):
-        return self.text
+        return self.user
 
 
 class Group(models.Model):

@@ -1,5 +1,15 @@
 # Описание.
 
+## Проект api_final_yatube.
+
+## Технологии:
+* Python 3.7
+* Django 3.2
+* SQlite3
+* DRF
+
+## Описание проекта
+
 _Данный проект позволяет осуществлять работу с приложением Yatube
 по средством API на базе Django + Django REST framework._
 

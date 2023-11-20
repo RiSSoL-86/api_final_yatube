@@ -12,6 +12,8 @@
 
 _Данный проект позволяет осуществлять работу с приложением Yatube
 по средством API на базе Django + Django REST framework._
+![image](https://github.com/RiSSoL-86/api_final_yatube/assets/110422516/416c1f81-4d10-4dff-80aa-9701ad517846)
+
 
 # Установка.
 
@@ -24,17 +26,17 @@ _Данный проект позволяет осуществлять рабо�
 
 * Cоздать и активировать виртуальное окружение:
 
-        python3 -m venv env
+        python3 -m venv venv
         source venv/Scripts/activate
 
 * Установить зависимости из файла requirements.txt:
 
-        python3 -m pip install --upgrade pip
+        python -m pip install --upgrade pip
         pip install -r requirements.txt
 
 * Выполнить миграции:
 
-        python3 manage.py migrate
+        python manage.py migrate
         
 * Запустить проект:
 
